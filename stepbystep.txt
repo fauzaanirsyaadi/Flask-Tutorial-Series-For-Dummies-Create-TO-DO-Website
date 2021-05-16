@@ -1,0 +1,14 @@
+build virtualenv (in cmd windows 10)
+>> virtualenv -p python3 venv
+>> venv\Scripts\activate 
+>> set FLASK_ENV=development
+
+setup flask (in app.py)
+>> pip install flask
+>> pip list
+
+setup template (in vars.py)
+
+
+
+
