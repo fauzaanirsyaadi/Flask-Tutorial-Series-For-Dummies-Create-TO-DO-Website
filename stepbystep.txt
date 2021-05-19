@@ -13,4 +13,4 @@ setup template (in vars.py)
 >>virtualenv -p python3 venv
 >>venv\Scripts\activate
 >> pip install Flask
-
+>> pip install python-dotenv
