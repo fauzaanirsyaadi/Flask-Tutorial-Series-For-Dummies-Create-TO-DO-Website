@@ -9,6 +9,7 @@ setup flask (in app.py)
 
 setup template (in vars.py)
 
+>> pip install Flask-WTF
 
 
 
