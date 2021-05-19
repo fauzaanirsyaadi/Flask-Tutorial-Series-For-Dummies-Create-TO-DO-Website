@@ -11,5 +11,18 @@ setup template (in vars.py)
 
 >> pip install Flask-WTF
 
-
-
+python 
+>>> from app import db 
+>>> for i in dir(db) ... print(i)
+>>> db.create_all()
+>>> from app import TodoModel
+>>> todo = TodoModel(content='I want to eat')
+>>> db.session.add(todo)
+>>> db.session.commit()
+>>> todo   
+t> <TodoModel 1>
+>>> todos = TodoModel.query.filter_by(id=1).first()
+>>> todos.id   
+t>  1
+>>> todos.content   
+t>   'I want to eat'
